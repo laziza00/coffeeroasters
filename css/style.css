@@ -417,7 +417,7 @@ position: relative;
   .our__inner {
     padding: 150px 0 100px 0;
     background-image: url('../images/cofee-2.svg');
-    background-size: 680px 118px;
+    background-size: contain;
     background-repeat: no-repeat;
   }
   .our__list {
@@ -585,7 +585,7 @@ position: relative;
 
   .header__menu {
     position: fixed;
-    top: -1000px;
+    top: -2000px;
     left:0;
     width: 100%;
     height: 100vh;
@@ -624,7 +624,7 @@ position: relative;
   }
   .nav__link {
     font-weight: 900;
-    font-family: 'Fraunces' sans-serif;
+    font-family: 'Fraunces', sans-serif;
     font-size: 24px;
     line-height: 32px;
     text-align: center;
@@ -675,7 +675,7 @@ position: relative;
 /* our */
 
   .our__inner {
-    padding: 120px 0;
+    padding: 80px 0 80px 0;
     background-image: url('../images/cofee-3.svg');
     background-size: contain;
     background-repeat: no-repeat;
