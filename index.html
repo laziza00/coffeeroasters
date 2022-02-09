@@ -5,13 +5,251 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>coffeeroasters</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link rel="stylesheet" href="css/col.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
+<section class="hero__content">
+  <header class="header">
+    <div class="container-fluid">
+      <div class="header__content ">
+       <div class="header__logo-box">
+         <a href="#">
+          <img class="header__logo" src="images/logo.svg" alt="img">
+         </a>
+       </div>
+       <div class="header__menu" id="headerMenu">
+         <nav class="header__nav nav">
+           <ul class="nav__list style-none">
+             <li class="nav__item">
+               <a class="nav__link" href="#">HOME</a>
+             </li>
+             <li class="nav__item">
+              <a class="nav__link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Create your plan</a>
+            </li>
+           </ul>
+         </nav>
+       </div>
+       <!-- <div class="header__img-hidden">
+         <a href="#"><img src="images/logo.svg" alt="img"></a>
+       </div> -->
+       <button class="header__btn" id="headerBtn">
+        <i class='bx bx-menu' id="icon"></i>
+       </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="container-fluid">
+      <div class="hero__inner">
+        <div class="hero__block">
+        <div class="hero__info">
+          <h1 class="hero__title">Great coffee
+            made simple.</h1>
+            <p class="hero__text">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
+            <div class="hero__link-box">
+              <a class="hero__link link" href="#">Create your plan</a>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section class="our">
+  <div class="container-fluid">
+    <div class="our__inner">
+      <ul class="our__list style-none">
+        <li class="our__item item  col-xs-12 col-lg-3 ">
+          <div class="our__img-box">
+            <img class="our__img" src="images/coffe.png" alt="img">
+          </div>
+          <div class="our__box">
+            <h3 class="our__item-title">Gran Espresso</h3>
+            <p class="our__item-text text">
+              Light and flavorful blend with cocoa and black pepper for an intense experience
+            </p>
+          </div>
+        </li>
+        <li class="our__item item  col-xs-12 col-lg-3  ">
+          <div class="our__img-box">
+            <img class="our__img" src="images/coffe.png" alt="img">
+          </div>
+          <div class="our__box">
+            <h3 class="our__item-title">Planalto</h3>
+            <p class="our__item-text text">
+              Brazilian dark roast with rich and velvety body, and hints of fruits and nuts
+            </p>
+          </div>
+        </li>
+        <li class="our__item item  col-xs-12 col-lg-3  ">
+          <div class="our__img-box">
+            <img class="our__img" src="images/coffe.png" alt="img">
+          </div>
+          <div class="our__box ">
+            <h3 class="our__item-title">Piccollo</h3>
+            <p class="our__item-text text">
+              Mild and smooth blend featuring notes of toasted almond and dried cherry
+            </p>
+          </div>
+        </li>
+        <li class="our__item item col-xs-12 col-lg-3  ">
+          <div class="our__img-box ">
+            <img class="our__img" src="images/coffe.png" alt="img">
+          </div>
+          <div class="our__box ">
+            <h3 class="our__item-title">Danche</h3>
+            <p class="our__item-text text">
+              Ethiopian hand-harvested blend densely packed with vibrant fruit notes
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="choose">
+  <div class="container-fluid">
+    <div class="choose__inner">
+      <h2 class="choose__title">
+        Why choose us?
+      </h2>
+      <p class="choose__text">A large part of our role is choosing which particular coffees will be featured 
+        in our range. This means working closely with the best coffee growers to give 
+        you a more impactful experience on every level.</p>
+        <ul class="choose__list style-none">
+          <li class="choose__item col-xs-12 col-lg-4">
+            <div class="choose__img-box">
+              <img class="choose__img" src="images/shape1.svg" alt="img">
+            </div>
+            <div class="choose__block">
+              <h3 class="choose__item-title">Best quality</h3>
+              <p class="choose__item-text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+            </div>
+          </li>
+          <li class="choose__item col-xs-12 col-lg-4">
+            <div class="choose__img-box">
+              <img class="choose__img" src="images/shape2.svg" alt="img">
+            </div>
+            <div class="choose__block">
+              <h3 class="choose__item-title">Exclusive benefits</h3>
+              <p class="choose__item-text">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+            </div>
+          </li>
+          <li class="choose__item col-xs-12 col-lg-4">
+            <div class="choose__img-box">
+              <img class="choose__img" src="images/shape3.svg" alt="img">
+            </div>
+            <div class="choose__block">
+              <h3 class="choose__item-title">Free shipping</h3>
+              <p class="choose__item-text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+            </div>
+          </li>
+        </ul>
+    </div>
+  </div>
+</section>
+
+<section class="work">
+  <div class="container-fluid">
+    <div class="work__inner">
+      <h2 class="work__title">
+        How it works
+      </h2>
+      <ul class="work__list style-none">
+        <li class="work__item col-xs-12 col-sm-4">
+          <p class="work__item-num">
+            01
+          </p>
+          <h3 class="work__item-title">
+            Pick your
+            coffee
+          </h3>
+            <p class="work__item-text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+        </li>
+        <li class="work__item col-xs-12 col-sm-4 ">
+          <p class="work__item-num">
+            02
+          </p>
+          <h3 class="work__item-title">
+            Choose the frequency
+          </h3>
+            <p class="work__item-text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+        </li>
+        <li class="work__item col-xs-12 col-sm-4">
+          <p class="work__item-num">
+            03
+          </p>
+          <h3 class="work__item-title">
+            Receive and enjoy!
+          </h3>
+            <p class="work__item-text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+        </li>
+      </ul>
+      <div class="work__link-box">
+        <a class="work__link link" href="#">Create your plan</a>
+
+      </div>
+     
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container-fluid">
+    <div class="footer__inner">
+        <div class="footer__logo-box">
+          <a href="#"><img class="footer__logo" src="images/logo-white.svg" alt="img"></a> 
+        </div>
+        <div class="footer__nav">
+          <ul class="footer__list style-none">
+            <li class="footer__item">
+              <a class="footer__link" href="#">HOME</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">ABOUT US</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Create your plan</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__social-box">
+          <ul class="footer__social-list style-none">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"><i class='bx bxl-facebook-square'></i></a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"><i class='bx bxl-twitter'></i></a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"><i class='bx bxl-instagram' ></i></a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
 
   <script src="js/main.js"></script>
 </body>
