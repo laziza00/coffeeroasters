@@ -125,7 +125,7 @@ body {
   padding: 15px 31px;
 }
 .link {
-  background: var(--link-bg);
+  background: var(--primary-color);
   border-radius: 6px;
   border: 1px solid transparent;
   font-weight: 900;
@@ -138,9 +138,8 @@ body {
   color: var(--white-color);
 }
 .hero__link:hover {
-  background-color: #fff;
-  color: var(--link-bg);
-  border: 1px solid var(--link-bg);
+  background-color: var(--link-bg);
+  color: var(--white-color);
 }
 
 
@@ -417,7 +416,7 @@ position: relative;
   .our__inner {
     padding: 150px 0 100px 0;
     background-image: url('../images/cofee-2.svg');
-    background-size: contain;
+    background-size: 100% 196px;
     background-repeat: no-repeat;
   }
   .our__list {
@@ -677,7 +676,7 @@ position: relative;
   .our__inner {
     padding: 80px 0 80px 0;
     background-image: url('../images/cofee-3.svg');
-    background-size: contain;
+    background-size: 100% 118px;
     background-repeat: no-repeat;
   }
   .our__item {
