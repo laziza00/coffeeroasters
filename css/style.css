@@ -643,13 +643,13 @@ position: relative;
   background-image: url('../images/hero-3.jpg');
 }
 .hero__block {
-  padding: 60px 24px 100px 24px;
+  padding: 100px 24px 100px 24px;
 }
 .hero__title {
   font-weight: 900;
   font-size: 40px;
   line-height: 40px;
-  width: 279px;
+  width: ;
   text-align: center;
   margin: 0 auto 24px;
 }
