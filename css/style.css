@@ -415,8 +415,8 @@ position: relative;
 
   .our__inner {
     padding: 150px 0 100px 0;
-    background-image: url('../images/cofee-2.svg');
-    background-size: 100% 196px;
+    background-image: url('../images/cofee-text2.png');
+    background-size: contain;
     background-repeat: no-repeat;
   }
   .our__list {
@@ -677,7 +677,7 @@ position: relative;
 
   .our__inner {
     padding: 80px 0 80px 0;
-    background-image: url('../images/cofee-3.svg');
+    background-image: url('../images/cofee-text3.svg');
     background-size: 100% 118px;
     background-repeat: no-repeat;
   }
