@@ -98,10 +98,6 @@ body {
 .hero__block {
   padding: 60px 86px 40px 86px;
 }
-
-.hero__inner > div{
-  width: 100%;
-}
 .hero__title {
   font-weight: 900;
   font-family: 'Fraunces', sans-serif;
@@ -374,7 +370,7 @@ position: relative;
 /* responsive */
 
 @media screen and (max-width: 992px) {
-  .container {
+  .container-fluid {
     width: 90%;
   }
   .header {
