@@ -643,7 +643,7 @@ position: relative;
   background-image: url('../images/hero-3.jpg');
 }
 .hero__block {
-  padding: 100px 24px 100px 24px;
+  padding: 100px 14px 100px 14px;
 }
 .hero__title {
   font-weight: 900;
